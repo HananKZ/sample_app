@@ -1,0 +1,8 @@
+git remote add origin https://github.com/HananKZ/sample_app.git
+git push -u origin master
+git push -u origin --all
+
+git checkout master
+git checkout -b static-pages   
+
+//(The first line here is just to make sure that you start on the master branch, so that the static-pages topic branch is based on master. You can skip that command if you’re already on the master branch.)//
